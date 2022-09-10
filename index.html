@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Astronauta</title>
+
+    <style>
+        @font-face {
+            font-family: space;
+            src: url(fontes/type-ra.ttf) format('truetype');
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+           background-image: url('imagens/espaco.jpg');
+           background-size: cover;
+           height: 100vh;
+           background-repeat: no-repeat;
+           width: 100%;
+           position: relative;
+          
+           
+           
+        }
+        #astronauta{
+            
+        width: 35%; 
+        position: absolute;
+        left:50%;
+        top: 50%;
+        transform:translate(-50% ,-50%)
+        }
+
+        footer{
+           text-align: center;
+            padding: 5px;
+            font-family:space, Georgia, 'Times New Roman', Times, serif;
+            background-color: rgba(66, 66, 148, 0.22);
+            width: 100px;
+            color: aquamarine;
+            border-radius: 20px;
+            background-position:bottom ;
+            border: 1px solid rgba(0, 0, 0, 0.528);
+            position: absolute;
+            bottom: 1px;
+            right: 1px;
+            box-shadow:inset 2px 2px 5px rgba(24, 157, 201, 0.801);
+            
+        }
+
+        </style>
+</head>
+<body>
+    <div>
+    <img src="imagens/astronauta.png" alt="" id="astronauta">  
+           
+    </div>
+    
+        
+    
+</body>
+<footer>
+    <p>Fabio Dazon</p>
+</footer>
+</html>
